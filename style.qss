@@ -1,0 +1,80 @@
+QPushButton {
+	background-color: transparent;
+    border: none;
+}
+
+#generate:checked {
+    icon: url("./icon/2.svg");
+}
+
+#generate:hover {
+    icon: url("./icon/2.svg");
+
+}
+
+#close_btn:hover{
+    background-color: #E81123;
+}
+
+#maximize_btn:hover,
+#pushButton_3:hover {
+	background-color: #2A2C30;
+}
+
+QWidget {
+    background-color: #090B10;
+}
+
+QTextEdit {
+    border: 1px solid #1E212D;
+    color: white;
+    background-color: #0d1117;
+}
+
+QPlainTextEdit {
+    border: 1px solid #1E212D;
+    color: white;
+    background-color: #0d1117;
+}
+
+
+QScrollBar:vertical {
+	border: 0px solid transparent;
+	background: #090B10;
+}
+QScrollBar::handle:vertical {
+	background: #242424;
+}
+
+QScrollBar::handle:vertical:hover {
+	background: #1b1b1b;
+} 
+
+QScrollBar::handle:vertical:pressed {
+	background: #80CBC4;
+} 
+QScrollBar::add-line:vertical {
+	border: 0px solid transparent;
+	background: transparent;
+	height: 0px;
+	subcontrol-position: bottom;
+	subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+	border: 0px solid transparent;
+	background: transparent;
+	height: 0px;
+	subcontrol-position: top;
+	subcontrol-origin: margin;
+}
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+	border: 0px solid transparent;
+	width: 0px;
+	height: 0px;
+	background: transparent;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+	background: none;
+}

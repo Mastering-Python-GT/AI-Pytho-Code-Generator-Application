@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icon/1.svg</file>
+    <file>icon/2.svg</file>
+    <file>icon/3.svg</file>
+    <file>icon/chrome-close.svg</file>
+    <file>icon/chrome-maximize.svg</file>
+    <file>icon/chrome-minimize.svg</file>
+    <file>icon/chrome-restore.svg</file>
+  </qresource>
+</RCC>
